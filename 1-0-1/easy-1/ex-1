@@ -1,0 +1,15 @@
+Explination
+-> The 'repeat' method is set up to take in a string and an integer. To 
+get the string to repeat by the size of the given integer, we need to use 
+the 'times' operator and set the 'num' to it. Once that is accomplished we 
+have to indicate what will be done said number times. To do this we can 
+simply type 'puts str'. This will allow the product to printed when the 
+information has been given.
+
+def repeat(str, num)
+  num.times do
+    puts str
+  end
+end
+
+repeat('hello', 3)
