@@ -1,0 +1,21 @@
+Explination
+-> This method takes the given integer and performs repeating process till 
+it reaches its size. The process is equated to a variable 'number'. 
+'number' sees if the integer is even or odd and prints 1 or 0 based on the 
+response. The value of the 'number' if pushed to the 'numbers' array 
+created earlier in the method. then at then end the array transitions 
+into a single string using the .join operator. The final result is a 
+string of 1's and 0's.
+
+def stringy(num)
+  number = []
+
+  num.times do |index|
+    number = index.even? ? 1 : 0
+    numbers << number
+  end
+
+  numbers.join
+end
+
+    
