@@ -1,0 +1,12 @@
+.step
+-> prints a range of numbers starting from a provided integer and is 
+incumented by another provided integer
+
+7.step(to: 20, by: 2) {|index| puts index}
+-> 7
+-> 9
+-> 11
+-> 13
+-> 15
+-> 17
+-> 19

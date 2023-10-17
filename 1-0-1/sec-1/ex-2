@@ -1,0 +1,12 @@
+?Date.civil?
+Date.civil([year[month[day[start = Date::Italy]]]])
+
+puts Date.civil -> 4712(default year)-01(default month)-01(default day)
+
+puts Date.civil(2016) -> 2016-01-01
+
+puts Date.civil(2016, 5) -> 2016-05-01
+
+puts Date.civil(2016, 5, 13) -> 2016-05-13
+
+

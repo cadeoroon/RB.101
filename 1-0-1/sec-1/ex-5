@@ -1,0 +1,11 @@
+Fetch
+-> use numerical order to 'fetch' elements and return either an error or a 
+secondary provided response
+
+a = %w(a b c d e)
+
+puts a.fetch(7) -> KeyError
+
+puts a.fetch(7, 'beats me') -> 'beats me'
+
+puts a.fetch(7) { |index| index**2 } -> 49

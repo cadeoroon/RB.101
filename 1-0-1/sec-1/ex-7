@@ -1,0 +1,4 @@
+Ruby Docs:String:Object:#public_methods
+
+ex: s= 'abc'
+    puts s.public_methods(false).inspect
