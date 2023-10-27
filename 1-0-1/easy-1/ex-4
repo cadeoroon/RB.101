@@ -1,0 +1,17 @@
+Explination
+-> This method is a more refined and efficient way of a writting an 
+if/else statement that involves a boolean. The method, "calculate_bonus", 
+takes an integer and a boolean decided by the users input, and gives two 
+gives a response to two different circumstances. The 'bonus's value is 
+tested with the use of the '?' and that is when the system is provided two 
+different responses based one what 'bonus's value. In this case that 
+happens to be '(slary / 2)' and 0.
+
+
+def calculate_bonus(salary, bonus)
+  bonus ? (salary / 2): 0
+end
+
+puts calculate_bonus(2800, true)
+puts calculate_bonus(1000, false)
+

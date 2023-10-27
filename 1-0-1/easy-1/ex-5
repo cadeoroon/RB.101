@@ -1,0 +1,21 @@
+Explination:
+-> The method creates two variables that contain pre-set strings that form 
+a box once the user inputs a string. The box is also slightly adaptive, so 
+that it will add space on either side of the quote. It does this by adding 
+two to the actual ".size" of the input (aka message).  
+
+
+def print_in_box(message)
+  top_bottom = "+#{'-' * (message.size + 2)}+"
+  sides = "|#{' ' * (message.size + 2)}|"
+  if message.size <= 80 
+    \n
+  end
+  puts top_bottom
+  puts sides
+  puts "| #{message} |"
+  puts sides
+  puts top_bottom
+end
+
+print_in_box('To boldly go where no one has gone before.')
