@@ -1,0 +1,27 @@
+def mad_lib 
+
+  print "Press enter to begin your random Mad Lib"
+  input = gets.chomp
+ 
+
+  print "Give a verb: "
+  verb = gets.chomp
+
+  print "Give a ajective: "
+  adjective = gets.chomp
+
+  print "Give an noun: "
+  noun = gets.chomp
+
+  print "Give an adverb: "
+  adverb = gets.chomp
+
+  mads = ["Do you #{verb} your #{adjective} #{noun} #{adverb}? That's
+    great!", "How long have you #{verb} with you #{adjective} #{noun}
+    #{adverb}?", "Is your #{adjective}  #{noun} #{verb} #{adverb}?"]
+
+  puts mads.sample
+
+end
+
+mad_lib
