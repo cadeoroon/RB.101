@@ -1,0 +1,9 @@
+def reversed_number(num)
+  number = num.to_s
+  numbers = number.reverse
+  numbers.to_i
+end 
+    
+
+puts reversed_number(12345)
+
